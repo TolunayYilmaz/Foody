@@ -10,7 +10,7 @@ namespace Foody.DataAccessLayer.Context
         {
             optionsBuilder.UseSqlServer("Server=DESKTOP-STM2NG9;initial catalog=FoodyDb;integrated security=true");
         }
-        public DbSet<About> Abouts { get; set; }
+        public DbSet<Slider> Abouts { get; set; }
         public DbSet<Address> Addresses { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Feature> Features { get; set; }
