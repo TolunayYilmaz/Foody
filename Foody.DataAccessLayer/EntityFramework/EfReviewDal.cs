@@ -1,4 +1,4 @@
-﻿,using Foody.DataAccessLayer.Abstract;
+﻿using Foody.DataAccessLayer.Abstract;
 using Foody.DataAccessLayer.Context;
 using Foody.DataAccessLayer.Repositories;
 using Foody.EntityLayer.Concrete;

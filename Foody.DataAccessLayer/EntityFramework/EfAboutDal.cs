@@ -15,5 +15,25 @@ namespace Foody.DataAccessLayer.EntityFramework
         public EfAboutDal(FoodyContext context) : base(context)
         {
         }
+
+        public void Insert(EntityLayer.Concrete.About entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(EntityLayer.Concrete.About entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<EntityLayer.Concrete.About> IGenericDal<EntityLayer.Concrete.About>.GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        EntityLayer.Concrete.About IGenericDal<EntityLayer.Concrete.About>.GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
