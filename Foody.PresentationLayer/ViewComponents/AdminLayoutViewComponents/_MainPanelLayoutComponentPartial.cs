@@ -2,7 +2,7 @@
 
 namespace Foody.PresentationLayer.ViewComponents.AdminLayoutViewComponents
 {
-    public class _HeadLayoutComponentPartial:ViewComponent
+    public class _MainPanelLayoutComponentPartial:ViewComponent
     {
         public IViewComponentResult Invoke()
         {
