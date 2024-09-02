@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.EntityLayer", "Foody.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.DataAccessLayer", "Foody.DataAccessLayer\Foody.DataAccessLayer.csproj", "{9D2376B1-9BAC-4ADC-B158-0B961E40457D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.BusinessLayer", "Foody.BusinessLayer\Foody.BusinessLayer.csproj", "{5E0382D5-9892-42A2-BD8E-16ADA89D1592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.BusinessLayer", "Foody.BusinessLayer\Foody.BusinessLayer.csproj", "{5E0382D5-9892-42A2-BD8E-16ADA89D1592}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.PresentationLayer", "Foody.PresentationLayer\Foody.PresentationLayer.csproj", "{5A8872D7-97C3-4703-B70A-FBABE3535B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.PresentationLayer", "Foody.PresentationLayer\Foody.PresentationLayer.csproj", "{5A8872D7-97C3-4703-B70A-FBABE3535B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.DtoLayer", "Foody.DtoLayer\Foody.DtoLayer.csproj", "{3D0C05EB-AEA0-41EA-B3CA-F446E8C76BD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5A8872D7-97C3-4703-B70A-FBABE3535B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A8872D7-97C3-4703-B70A-FBABE3535B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A8872D7-97C3-4703-B70A-FBABE3535B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0C05EB-AEA0-41EA-B3CA-F446E8C76BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0C05EB-AEA0-41EA-B3CA-F446E8C76BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0C05EB-AEA0-41EA-B3CA-F446E8C76BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0C05EB-AEA0-41EA-B3CA-F446E8C76BD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
